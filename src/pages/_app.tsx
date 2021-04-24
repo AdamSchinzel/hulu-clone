@@ -31,11 +31,11 @@ const App = ({ Component, pageProps }: AppProps) => (
       <link rel="apple-touch-icon" sizes="152x152" href="/static/touch-icon-ipad-retina.png"></link>
       <link rel="apple-touch-icon" sizes="180x180" href="/static/touch-icon-iphone-6-plus.png"></link>
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://hulu-clone.vercel.app" />
+      <meta property="og:url" content="https://hulu-clone-phi.vercel.app/" />
       <meta property="og:title" content="Hulu clone" />
       <meta property="og:description" content="Clone of Hulu streaming platform made in Next.js" />
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://hulu-clone.vercel.app" />
+      <meta property="twitter:url" content="https://hulu-clone-phi.vercel.app/" />
       <meta property="twitter:title" content="Hulu clone" />
       <meta property="twitter:description" content="Clone of Hulu streaming platform made in Next.js" />
     </Head>
