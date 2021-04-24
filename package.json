@@ -1,15 +1,47 @@
 {
   "name": "hulu-clone",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Clone of streaming platform Hulu",
+  "author": "Adam Schinzel <schinzel.adam@gmail.com>",
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.1",
+    "@sentry/react": "^6.3.1",
+    "@sentry/tracing": "^6.3.1",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
     "next": "10.1.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-flip-move": "^3.0.4",
+    "tailwind-scrollbar-hide": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "next-sitemap": "^1.6.25",
+    "postcss": "^8.2.12",
+    "prettier": "^2.2.1",
+    "react-inspector": "^5.1.1",
+    "tailwindcss": "^2.1.1",
+    "ts-loader": "^9.1.0",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.2.4"
   }
 }
