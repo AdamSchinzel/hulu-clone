@@ -11,7 +11,6 @@ const About = () => {
       <p>- Front-end: Next.js (TypeScript)</p>
       <p>- Styling: Tailwind CSS</p>
       <p>- Issue tracking system: Sentry</p>
-      <p>- HTTP client: Axios</p>
     </div>
   );
 };
